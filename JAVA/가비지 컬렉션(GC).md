@@ -26,3 +26,19 @@ c나 c++에서는 가비지 컬렉션이 없어 개발자가 수동으로 메모
   #### Unreachable, Reachable?
   - Reachable: 객체가 참조되고 있는 상태
   - Unreachable: 객체가 참조되고 있지 않은 상태(GC의 대상이 됨)
+
+## Mark And Sweep 알고리즘
+- Mark And Sweep 알고리즘은 가비지 컬렉션이 동작하는 원리로 루트에서부터 해당 객체에 접근 가능한지에 대한 여부를 메모리 해제의 기준으로 잡습니다.  
+Mark And Sweep은 아래의 3가지 과정으로 이루어 집니다.
+
+1. Mark 과정: 먼저 Root로부터 그래프 순회를 통해 연결된 객체들을 찾아내어 각각 어떤 객체를 참조하고 있는지 찾아서 마킹한다. (탐색)
+2. Sweep 과정: 참조하고 있지 않은 객체 즉 Unreachable 객체들을 Heap에서 제거한다. (삭제)
+3. Compact 과정: Sweep 후에 분산된 객체들을 Heap의 시작 주소로 모아 메모리가 할당된 부분과 그렇지 않은 부분으로 압축한다. (가비지 컬렉터 종류에 따라 하지 않는 경우도 있음) (정리)
+
+## 가비지 컬렉션 동작 과정
+1. 객체가 처음 생성되고 Heap영역의 Eden에 age-bit 0으로 할당된다. 이 age-bit는 Minor GC에서 살아남을 때마다 1씩 증가하게 된다.
+2. 시간이 지나 Heap Area의 Eden 영역에 객체가 다 쌓이게 되면 Minor GC가 한번 일어나게 되고 참조 정도에 따라 Servivar0 영역으로 이동하거나 회수한다.
+3. 계속해서 Eden 영역에는 신규 객체들이 생성된다. 이렇게 또 Eden 영역에 객체가 다 쌓이게 되면 Young Generation(Eden + Servivor) 영역에 있는 객체들을 비어있는 Survival인 Survival1 영역에 이동하고 살아남은 모든 객체들은 age가 1씩 증가한다.
+4. 또 다시 Eden 영역에 신규 객체들로 가득 차게 되면 다시한번 Minor GC가 일어나고 Young Generation(Eden + Servival) 영역에 있는 객체들을 비어있는 Survival인 Survival0으로 이동시킨 뒤 age를 1 증가시킨다. 이 3~4 의 과정을 계속해서 반복하게 된다.
+5. 이 과정을 반복하다 보면 age bit가 특정 숫자 이상으로 되는 경우가 발생한다. 이 때 JVM에서 설정해놓은 age bit에 도달하게 되면 오랫동안 쓰일 객체라고 판단하고 Old generation 영역으로 이동시킨다. 이 과정을 프로모션(Promotion) 이라고 한다.
+6. 시간이 지나 Old영역에 할당된 메모리가 허용치를 넘게 되면, Old 영역에 있는 모든 객체들을 검사하여 참조되지 않는 객체들을 한꺼번에 삭제하는 GC가 실행된다. 이렇게 Old generation 영역의 메모리를 회수하는 GC를 Major GC라고 한다. Major GC는 시간이 오래 걸리는 작업이고 이 때 GC를 실행하는 스레드를 제외한 모든 스레드는 작업을 멈추게 된다. 이를 'Stop-the-World' 라고 한다. 이 작업이 너무 잦으면 프로그램 성능에 문제가 될 수 있다.
