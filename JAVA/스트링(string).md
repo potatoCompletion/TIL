@@ -1,4 +1,4 @@
-# 스트링 풀(String Pool)
+# 스트링(String)
 **가장 많이 사용하면서도 가장 헷갈리기 쉬운 자료형 String**
 
 ## String 객체의 값은 불변이다.
