@@ -104,6 +104,7 @@ String c = "hello " + "world";
 - '+' 연산자는 java 1.5 이전과 이후로 나눌 수 있다.  
 1.5 이전 버전에서는 내부적으로 concat 메서드와 동일하게 수행되었고,  
 이후 버전부터는 StringBuilder로 변환하여 처리한다.  
+반복문이 아닌 일반적인 경우 많이 사용한다.
 <br>
 **주의할 점**  
 '+' 연산을 StringBuilder로 변환해서 처리해주는 주체는 컴파일러이다.  
@@ -126,7 +127,10 @@ StringBuilder 생성 시 capacity를 주지 않을 경우 default는 16이다. �
 ```
 
 ### StringBuffer
-
+사용법은 StringBuilder와 동일하다. StringBuilder와의 차이점은 **StringBuffer는 thread-safe** 하다는 것이다.  
+StringBuffer 클래스는 동시에 이 객체에 접근했을 때, 동시성을 제어해주는 기능이 존재하고,  
+StringBuilder 클래스는 동시성 제어 기능을 제외하여 상대적으로 동작속도가 빠르다.  
+멀티스레드를 이용하여 하나의 문자열을 수정할 필요가 있다면 StringBuffer를, 그렇지 않다면 StringBuilder를 사용하는 것이 이상적이다.
 
 ## 추가해서 정리할 주제
 1. 함수형 프로그래밍의 불변객체 사용 이유
