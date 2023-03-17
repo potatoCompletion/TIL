@@ -7,11 +7,12 @@
 
 ## JAVA
 [가비지 컬렉션](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EA%B0%80%EB%B9%84%EC%A7%80%20%EC%BB%AC%EB%A0%89%EC%85%98(GC).md)  
-[스트링(String)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%8A%A4%ED%8A%B8%EB%A7%81(string).md)
+[스트링(String)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%8A%A4%ED%8A%B8%EB%A7%81(string).md)  
+[예외처리(Exception)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC(Exception).md)  
 
 ## DB
-[인덱스(index)](https://github.com/potatoCompletion/TIL/blob/master/DB/DB%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%A0%95%EB%A6%AC.md)
+[인덱스(index)](https://github.com/potatoCompletion/TIL/blob/master/DB/DB%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%A0%95%EB%A6%AC.md)  
 
 ## OS
 [프로세스와 스레드](https://github.com/potatoCompletion/TIL/blob/master/OS/프로세스와%20스레드.md)  
-[스레드 풀(Thread Pool)](https://github.com/potatoCompletion/TIL/blob/master/OS/%EC%8A%A4%EB%A0%88%EB%93%9C%20%ED%92%80(Thread%20Pool).md)
+[스레드 풀(Thread Pool)](https://github.com/potatoCompletion/TIL/blob/master/OS/%EC%8A%A4%EB%A0%88%EB%93%9C%20%ED%92%80(Thread%20Pool).md)  
