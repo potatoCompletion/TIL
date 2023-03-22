@@ -20,3 +20,6 @@
 ## Design Pattern
 [디자인 패턴의 존재이유](https://github.com/potatoCompletion/TIL/blob/master/Design%20Pattern/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4%EC%9D%98%20%EC%A1%B4%EC%9E%AC%EC%9D%B4%EC%9C%A0.md)  
 [싱글톤 패턴(Singleton Pattern)](https://github.com/potatoCompletion/TIL/blob/master/Design%20Pattern/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4(Single%20Pattern).md)  
+
+## WEB
+[REST API](https://github.com/potatoCompletion/TIL/blob/master/WEB/RESTful%20API.md)  
