@@ -22,4 +22,4 @@
 [싱글톤 패턴(Singleton Pattern)](https://github.com/potatoCompletion/TIL/blob/master/Design%20Pattern/%EC%8B%B1%EA%B8%80%ED%86%A4%20%ED%8C%A8%ED%84%B4(Single%20Pattern).md)  
 
 ## WEB
-[REST](https://github.com/potatoCompletion/TIL/blob/master/WEB/RESTful%20API.md)  
+[REST](https://github.com/potatoCompletion/TIL/blob/master/WEB/REST.md)  
