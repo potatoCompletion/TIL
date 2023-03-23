@@ -114,8 +114,8 @@ RESTful 이란 'REST한~' 라고 생각하면 될 것 같다. REST 아키텍처�
 
 
 ## 웹 API 디자인 할 때 좋은 참고사이트
-마이크로소프트 웹 API 디자인 모범 사례 문서
+마이크로소프트 웹 API 디자인 모범 사례 문서  
 https://learn.microsoft.com/ko-kr/azure/architecture/best-practices/api-design#organize-the-api-design-around-resources  
 <br>
-Query Parameter와 Path Variable의 사용처
+Query Parameter와 Path Variable의 사용처  
 https://ryan-han.com/post/translated/pathvariable_queryparam/
