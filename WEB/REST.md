@@ -1,8 +1,6 @@
 # REST API
 **과연 우리는 REST API를 설계하고 구현해 온것이 맞는가? 라는 의문을 가져볼만한 REST 정리**
-<br>
-<br>
-<br>
+#
 
 ## REST란?
 REpresentatinal State Transfer의 약자로 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미한다.  
@@ -11,6 +9,7 @@ REpresentatinal State Transfer의 약자로 자원을 이름으로 구분하여 
 1. HTTP URI를 통해 자원(Resource)을 명시한다.
 2. HTTP Method(GET, POST, PUT, DELETE 등)를 통해 해당 자원에 대한 CRUD 작업을 적용하는 것을 의미한다.
 
+#
 ## REST 구성 요소
 REST는 다음과 같은 3가지로 구성이 되어있다.
 
@@ -26,6 +25,7 @@ REST는 다음과 같은 3가지로 구성이 되어있다.
 우리가 택배를 보낼 때를 예시로 들면, 택배 물건이 페이로드이고, 박스나 흡충제 같은 부가요소들은 페이로드가 아니다.
 ```
 
+#
 ## REST의 원칙
 
 ### 1. Server-Client(서버-클라이언트 구조)
@@ -92,6 +92,7 @@ HAL 타입을 이용하면 쉽게 HATEOAS를 달성할 수 있다.
 주문형 코드는 REST 원칙 중에서 유일한 선택사항이다.
 ```
 
+#
 ## REST의 장점
 
 1. HTTP 프로토콜의 인프라를 그대로 사용하므로 REST API 사용을 위한 별도의 인프라를 구출할 필요가 없다.
@@ -102,6 +103,7 @@ HAL 타입을 이용하면 쉽게 HATEOAS를 달성할 수 있다.
 6. 여러 가지 서비스 디자인에서 생길 수 있는 문제를 최소화한다.
 7. 서버와 클라이언트의 역할을 명확하게 분리한다.
 
+#
 ## REST의 단점
 
 1. 표준이 자체가 존재하지 않아 정의가 필요하다.
@@ -109,10 +111,11 @@ HAL 타입을 이용하면 쉽게 HATEOAS를 달성할 수 있다.
 3. 브라우저를 통해 테스트 할 일이 많은 서비스라면 쉽게 고칠 수 있는 URL보다 Header 정보의 값을 처리해야 하므로 전문성이 요구된다.
 4. 구형 브라우저에서 호환이 되지 않아 지원해주지 못하는 동작이 많다.(특히 익스플로어.. 익스플로어.. 익스플로어..)
 
+#
 ## RESTful 이란?
 RESTful 이란 'REST한~' 라고 생각하면 될 것 같다. REST 아키텍처의 원칙을 잘 지켜 구현한 API는 RESTful API라고 할 수 있다.  
 
-
+#
 ## 웹 API 디자인 할 때 좋은 참고사이트
 마이크로소프트 웹 API 디자인 모범 사례 문서  
 https://learn.microsoft.com/ko-kr/azure/architecture/best-practices/api-design#organize-the-api-design-around-resources  
