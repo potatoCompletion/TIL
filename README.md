@@ -8,6 +8,8 @@
 [가비지 컬렉션](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EA%B0%80%EB%B9%84%EC%A7%80%20%EC%BB%AC%EB%A0%89%EC%85%98(GC).md)  
 [스트링(String)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%8A%A4%ED%8A%B8%EB%A7%81(string).md)  
 [예외처리(Exception)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC(Exception).md)  
+[서블릿(Servlet)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%84%9C%EB%B8%94%EB%A6%BF(Servlet).md)  
+
 
 ## DB
 [인덱스(index)](https://github.com/potatoCompletion/TIL/blob/master/DB/DB%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%A0%95%EB%A6%AC.md)  
