@@ -24,6 +24,7 @@
 
 ## WEB
 [REST](https://github.com/potatoCompletion/TIL/blob/master/WEB/REST.md)  
+[HTTP](https://github.com/potatoCompletion/TIL/blob/master/WEB/HTTP.md)  
 
 ## Server
 [대량 트래픽 처리](https://github.com/potatoCompletion/TIL/blob/master/Server/%EB%8C%80%EB%9F%89%20%ED%8A%B8%EB%9E%98%ED%94%BD%20%EC%B2%98%EB%A6%AC.md)  
