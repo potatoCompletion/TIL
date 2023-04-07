@@ -102,7 +102,7 @@ PUT을 사용해 전체 객체를 업데이트하는 것이 관례여서 거의 
 클라이언트가 서버의 리소스에 대해 수행 가능한 동작을 알아보기 위해 사용한다.  
 일반적으로 서버는 이 리소스에 대해 사용할 수 있는 HTTP 요청 메서드를 포함하는 Allow 헤더를 반환한다. (CORS에 사용)
 
-> PUT과 PATCH의 차이에 대한 좋은 글
+> PUT과 PATCH의 차이에 대한 좋은 글  
 > https://velog.io/@vagabondms/%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%84%B0%EB%94%94-PUT%EA%B3%BC-PATCH-%EC%B0%A8%EC%9D%B4
 
 <br />
