@@ -9,6 +9,7 @@
 [스트링(String)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%8A%A4%ED%8A%B8%EB%A7%81(string).md)  
 [예외처리(Exception)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC(Exception).md)  
 [서블릿(Servlet)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%84%9C%EB%B8%94%EB%A6%BF(Servlet).md)  
+[인터페이스와 추상클래스](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80%20%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
 
 
 ## DB
