@@ -26,7 +26,7 @@
 
 (백기선님 유튜브 영상 링크) https://www.youtube.com/watch?v=_WkMhytqoCc  
 
-영상 제목이 다소 자극적이긴 하지만 영상의 요지는 '스프링에서의 기본설정을 왜 Checked Exception과 Unchecked Exception의 개념으로 정의하나?' 라고 해석했다.  
+영상의 요지는 '스프링에서의 기본설정을 왜 Checked Exception과 Unchecked Exception의 개념으로 정의하나?' 라고 해석했다.  
 사실 저 표에 나와있는 '트랜잭션 처리' 부분은 정확한 표현이 아니다.  
 우선 '트랜잭션' 이 'DB 트랜잭션'을 줄여쓴거라 가정하겠다.(어떠한 트랜잭션인지에 대한 설명이 없다)  
 정확히 말하자면, 저 설명은 '스프링의 기본(default) 동작' 이라고 표현하는게 맞다고 본다.  
