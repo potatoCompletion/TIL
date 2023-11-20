@@ -138,7 +138,9 @@ sb.append("world");
 StringBuilder의 경우 흔히 **문자열을 합칠 때 가장 추천되는 방식**이다.  
 그 이유는 바로 객체가 immutable 하지 않다는 점이다.  
 다른 객체들과 같이 하나의 메모리를 차지하고 그 메모리 내부의 값을 계속 추가 및 삭제 해가며 진행된다.  
-최종적으로 toString() 메서드를 호출할 때에만 string pool에 문자열이 생성되게 된다.
+만약, 문자열의 추가/수정/삭제 와 같은 작업을 계속 해줘야 하는 경우에 일반적인 String 자료형은 아예 새로운 영역에 수정값을 저장하게 되고    
+기존에 참조되어 있던 영역은 아무도 참조하지 않게 되어 GC(Garbage Collection)의 대상이 된다.  
+그에 반해, StringBuilder의 경우 할당받은 공간 내에서 추가/수정/삭제 작업을 한 후, 최종적으로 toString() 메서드를 호출할 때에만 string pool에 문자열이 생성되게 된다.
 ```
 StringBuilder 생성 시 capacity를 주지 않을 경우 default는 16이다. 이 후 공간이 부족할 때 내부적으로 알아서 capacity를 늘림
 ```
