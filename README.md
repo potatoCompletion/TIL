@@ -32,3 +32,4 @@
 
 ## ETC
 [DataGrip 사용기록](https://github.com/potatoCompletion/TIL/blob/master/ETC/DataGrip.md)  
+[짧막글_정리](https://github.com/potatoCompletion/TIL/blob/master/ETC/%EC%A7%A7%EB%A7%89%EA%B8%80_%EB%AA%A8%EC%9D%8C.md)  
