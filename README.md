@@ -12,7 +12,7 @@
 [인터페이스와 추상클래스](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80%20%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
 
 ## SPRING
-[프로퍼티 설정]
+[프로퍼티 설정](https://github.com/potatoCompletion/TIL/blob/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EC%84%A4%EC%A0%95.md)
 
 ## DB
 [인덱스(index)](https://github.com/potatoCompletion/TIL/blob/master/DB/DB%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%A0%95%EB%A6%AC.md)  
