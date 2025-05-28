@@ -10,7 +10,8 @@
 [예외처리(Exception)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC(Exception).md)  
 [서블릿(Servlet)](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%84%9C%EB%B8%94%EB%A6%BF(Servlet).md)  
 [인터페이스와 추상클래스](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80%20%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4.md)  
-[Getter와 Setter](https://github.com/potatoCompletion/TIL/blob/master/JAVA/Getter%EC%99%80%20Setter.md)
+[Getter와 Setter](https://github.com/potatoCompletion/TIL/blob/master/JAVA/Getter%EC%99%80%20Setter.md)  
+[엔티티(Entity)의 Wrapper 클래스](https://github.com/potatoCompletion/TIL/blob/master/JAVA/%EC%97%94%ED%8B%B0%ED%8B%B0(Entity)%EC%9D%98%20Wrapper%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
 
 ## SPRING
 [프로퍼티 설정](https://github.com/potatoCompletion/TIL/blob/master/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EC%84%A4%EC%A0%95.md)

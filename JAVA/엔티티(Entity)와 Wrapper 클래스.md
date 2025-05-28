@@ -1,4 +1,4 @@
-# 엔티티(Entity)의 Wrapper 클래스
+# 엔티티(Entity)와 Wrapper 클래스
 **무의식적으로 사용하던 Wrapper 클래스의 사용 이유에 대해 알아보자**  
 <br/>
 <br/>
